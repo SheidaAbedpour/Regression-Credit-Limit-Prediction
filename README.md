@@ -7,8 +7,29 @@ Before training our model, we preprocess the data to ensure its quality and suit
 ## Handling Missing Data
 Missing data is a common issue in datasets and can significantly impact model performance. We employ strategies such as imputation based on mean or median values and leveraging relationships between features to fill missing data appropriately.
 
+![](pic/card_category_null.PNG)
+![](pic/gender_nan.PNG)
+![](pic/marital_status_nan.PNG)
+
+
 ## Handling Outliers
 Outliers can skew model predictions and affect the overall accuracy. We identify and remove outliers using techniques like Local Outlier Factor (LOF) to ensure robust model training.
+
+<table>
+  <tr>
+    <td align="center"><img src="pic/months_on_book_outlier.PNG" alt="Image 1" width="200"/></td>
+    <td align="center"><img src="pic/card_category_null.PNG" alt="Image 2" width="200"/></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="pic/total_tran_amt_and_total_trans_ct_outlier.PNG" alt="Image 4" width="200"/></td>
+    <td align="center"><img src="pic/total_amt_chng_and_total_ct_chng_outlier.PNG" alt="Image 5" width="200"/></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="pic/months_inactive_12_mon_outlier.PNG" alt="Image 7" width="200"/></td>
+    <td align="center"><img src="pic/total_revolvingbal_outlier.PNG" alt="Image 8" width="200"/></td>
+  </tr>
+</table>
+
 
 ## Feature Selection
 Selecting the most relevant features is crucial for model efficiency and interpretability. We use techniques like correlation analysis and feature importance scores to select the most informative features for our regression model.
