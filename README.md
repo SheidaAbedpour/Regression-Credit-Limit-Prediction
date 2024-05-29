@@ -22,7 +22,7 @@ Outliers can skew model predictions and affect the overall accuracy. We identify
 <table>
   <tr>
     <td align="center"><img src="pic/months_on_book_outlier.PNG" alt="Image 1" width="600"/></td>
-    <td align="center"><img src="pic/card_category_null.PNG" alt="Image 2" width="600"/></td>
+    <td align="center"><img src="pic/contacts_count_12_mon_outlier.PNG" alt="Image 2" width="600"/></td>
   </tr>
   <tr>
     <td align="center"><img src="pic/total_tran_amt_and_total_trans_ct_outlier.PNG" alt="Image 4" width="600"/></td>
