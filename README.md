@@ -73,6 +73,14 @@ We evaluate model performance using metrics such as Mean Squared Error (MSE) and
 - Mean Squared Error (MSE): Measures the average squared difference between the actual and predicted values.
 - R-squared (R2) Score: Represents the proportion of the variance in the dependent variable that is predictable from the independent variables.
 
+| Model                | Train MSE       | Train R2  | Test MSE         | Test R2  |
+|----------------------|-----------------|-----------|------------------|----------|
+| Random Forest        | 1.253357e+06    | 0.982717  | 1.266337e+07     | 0.851246 |
+| Polynomial Regression| 1.012446e+07    | 0.860389  | 3.010598e+07     | 0.646350 |
+| Linear Regression    | 2.948030e+07    | 0.593483  | 3.622185e+07     | 0.574508 |
+| Ridge Regression     | 2.948209e+07    | 0.593458  | 3.627357e+07     | 0.573901 |
+
+
 ## Conclusion
 In conclusion, this project demonstrates the application of regression models for credit limit prediction. By preprocessing data, handling missing values and outliers, and selecting informative features, we build robust models that can assist financial institutions in making informed lending decisions.
 
